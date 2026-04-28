@@ -1,0 +1,11 @@
+{
+  "name": "dynamic-colour-clock-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "cd DYNAMIC-COLOUR-CLOCK && npm run dev",
+    "build": "cd DYNAMIC-COLOUR-CLOCK && npm run build",
+    "preview": "cd DYNAMIC-COLOUR-CLOCK && npm run preview",
+    "install": "cd DYNAMIC-COLOUR-CLOCK && npm install"
+  }
+}

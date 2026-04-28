@@ -1,0 +1,57 @@
+/* App.css */
+
+/* Using a rich, deep purple-navy gradient for the background */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(circle at center, #2e1065, #020617);
+  margin: 0;
+}
+
+.clock-card {
+  /* Glassmorphism with a violet tint */
+  background: rgba(88, 28, 135, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 3.5rem;
+  border-radius: 30px;
+  border: 1px solid rgba(192, 132, 252, 0.3);
+  text-align: center;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.clock-label {
+  font-size: 0.75rem;
+  font-weight: 900;
+  /* Using a soft Gold/Amber for the label */
+  color: #fbbf24;
+  letter-spacing: 0.4em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.clock-time {
+  font-size: 5rem;
+  font-weight: 900;
+  /* A vibrant gradient text for the time */
+  background: linear-gradient(to bottom, #f5d0fe, #a855f7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  /* Preventing width jitter */
+  font-variant-numeric: tabular-nums;
+  /* Outer glow to match the text gradient */
+  filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.4));
+}
+
+.clock-date {
+  font-size: 1.2rem;
+  /* Soft Lavender/Pink for the date */
+  color: #e879f9;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+}
